@@ -8,7 +8,7 @@ Compare with [Face Swap using OpenCV ( C++ / Python )](https://www.learnopencv.c
     g++ with c++11/14
 
 2.Build
-    mkdir build &&& cd build
+    mkdir build && cd build
     cmake ..
     make
 
