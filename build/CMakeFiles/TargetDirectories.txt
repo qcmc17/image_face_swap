@@ -1,0 +1,3 @@
+/home/wgy/3dface/swapface/for_git/build/CMakeFiles/rebuild_cache.dir
+/home/wgy/3dface/swapface/for_git/build/CMakeFiles/edit_cache.dir
+/home/wgy/3dface/swapface/for_git/build/CMakeFiles/faceswap.dir

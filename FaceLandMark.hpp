@@ -7,6 +7,7 @@
 #include <dlib/gui_widgets.h>
 #include <dlib/image_io.h>
 #include <opencv2/opencv.hpp>
+#include <fstream>
 #include <iostream>
 
 namespace fs {
@@ -18,7 +19,9 @@ class FaceLandMark {
 	
 	public:
 		FaceLandMark(const std::string& dat): detector(get_frontal_face_detector()) {
-			deserialize(dat) >> sp;
+            std::fstream stream(dat, std::ios::in | std::ios::binary);
+            deserialize(sp, stream);
+			//deserialize(dat) >> sp;
 		}
 
 

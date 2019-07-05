@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wgy/3dface/swapface/for_git/FaceLandMark.hpp
+dlib/image_processing/frontal_face_detector.h
+-
+dlib/image_processing/render_face_detections.h
+-
+dlib/image_processing.h
+-
+dlib/gui_widgets.h
+-
+dlib/image_io.h
+-
+opencv2/opencv.hpp
+-
+fstream
+-
+iostream
+-
+
+/home/wgy/3dface/swapface/for_git/faceSwap.cpp
+FaceLandMark.hpp
+/home/wgy/3dface/swapface/for_git/FaceLandMark.hpp
+opencv2/opencv.hpp
+-
+iostream
+-
+fstream
+-
+string
+-
+
